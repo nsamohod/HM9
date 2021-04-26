@@ -1,0 +1,26 @@
+---
+title: "HW Conclusions"
+author: "NicolleBelaunde"
+date: "4/25/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In conclusion, we find that our algorithm is able to predict whether a given tweet was more likely tweeted by Boris Johnson or AOC with an accuracy of about 70%, we test 10 tweets (5 by BJ and 5 by AOC) and we find that the model accurately predicts 7/10 (~70% accuracy). The model has a better accuracy for predicting BJ tweets than AOC.
+
+This is both consistent with the results from the Confusion Matrices and with our manual test. We also found that the algorithm tends to break when we test it with tweets from unrelated users, as it attributes them all to the same person (AOC).
+
+As postulated, both politicians commonly commented on a key international issue. “COVID” was one of the most used words in tweets from Ocasio-Cortez and “pandemic” was one of Boris Johnson’s most used words. 
+
+However, there were also considerable differences which allowed our algorithm to predict which user a Tweet came from. For instance, Johnson is prime minister of the UK and so one of the most common words in his tweets is UK. In all likelihood, if a tweet contains “ UK “, it was issued by Johnson. 
+
+Interestingly, one of Johnson’s most used words is “great”. While this may not seem significant, the use of the simple adjective in political statements has become a form of statement since Donald Trump adopted the motto “make America great again”.   
+             
+**Acknowledgments**           
+
+This work has been done as part of a class project and it’s the result of teamwork by Nicolle Belaunde, Valentina Cafarelli, Jenifer M. Nemoda, Samira Okudo, and Jonathan Zur. 
+
+Our predictive algorithm is adapted from one of the models we used in class (Lecture 12).

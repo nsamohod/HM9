@@ -1,0 +1,17 @@
+---
+title: "Introduction"
+author: "NicolleBelaunde"
+date: "4/25/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Comparing twitters: Boris Johnson and Alexandria Ocasio-Cortez. 
+
+As part of the homework for the University of Pennsylvanias' BDS 516 class, my team decided to compare these two different politicians. Boris Johnson, the Prime Minister of the United Kingdom and Leader of the Conservative Party since July 2019, and Alexandria Ocasio-Cortez, the U.S. Representative for New York's 14th congressional district since 2019 and member of the Democratic Party. We liked their differences: women / male, american / british, prime minsiter/congresswomen, conservative/democratic.
+
+
